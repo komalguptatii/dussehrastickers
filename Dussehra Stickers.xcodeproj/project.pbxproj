@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ACC77E51D93B23100F3C133 /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0ACC77E41D93B23100F3C133 /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0ACC77E91D93B23100F3C133 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 0ACC77E81D93B23100F3C133 /* Stickers.xcstickers */; };
+		0ACC77EA1D93B23100F3C133 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 0ACC77E81D93B23100F3C133 /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0ACC77E61D93B23100F3C133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ACC77DA1D93B23000F3C133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ACC77E31D93B23100F3C133;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0ACC77F01D93B23100F3C133 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0ACC77E51D93B23100F3C133 /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0ACC77E01D93B23100F3C133 /* Dussehra Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dussehra Stickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ACC77E41D93B23100F3C133 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ACC77E81D93B23100F3C133 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0ACC77D91D93B23000F3C133 = {
+			isa = PBXGroup;
+			children = (
+				0ACC77E81D93B23100F3C133 /* Stickers.xcstickers */,
+				0ACC77E11D93B23100F3C133 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0ACC77E11D93B23100F3C133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ACC77E01D93B23100F3C133 /* Dussehra Stickers.app */,
+				0ACC77E41D93B23100F3C133 /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0ACC77DF1D93B23000F3C133 /* Dussehra Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ACC77F11D93B23100F3C133 /* Build configuration list for PBXNativeTarget "Dussehra Stickers" */;
+			buildPhases = (
+				0ACC77DE1D93B23000F3C133 /* Resources */,
+				0ACC77F01D93B23100F3C133 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ACC77E71D93B23100F3C133 /* PBXTargetDependency */,
+			);
+			name = "Dussehra Stickers";
+			productName = "Dussehra Stickers";
+			productReference = 0ACC77E01D93B23100F3C133 /* Dussehra Stickers.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		0ACC77E31D93B23100F3C133 /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ACC77ED1D93B23100F3C133 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				0ACC77E21D93B23100F3C133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = 0ACC77E41D93B23100F3C133 /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ACC77DA1D93B23000F3C133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Techies India Inc";
+				TargetAttributes = {
+					0ACC77DF1D93B23000F3C133 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = C4UY7M99L8;
+						ProvisioningStyle = Manual;
+					};
+					0ACC77E31D93B23100F3C133 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = C4UY7M99L8;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 0ACC77DD1D93B23000F3C133 /* Build configuration list for PBXProject "Dussehra Stickers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0ACC77D91D93B23000F3C133;
+			productRefGroup = 0ACC77E11D93B23100F3C133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ACC77DF1D93B23000F3C133 /* Dussehra Stickers */,
+				0ACC77E31D93B23100F3C133 /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ACC77DE1D93B23000F3C133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACC77EA1D93B23100F3C133 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ACC77E21D93B23100F3C133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACC77E91D93B23100F3C133 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0ACC77E71D93B23100F3C133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0ACC77E31D93B23100F3C133 /* StickerPackExtension */;
+			targetProxy = 0ACC77E61D93B23100F3C133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACC77EB1D93B23100F3C133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Techies India Inc. (C4UY7M99L8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Techies India Inc. (C4UY7M99L8)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "bb3b23d4-660a-47cb-b895-cda7082b1ca8";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0ACC77EC1D93B23100F3C133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Techies India Inc. (C4UY7M99L8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Techies India Inc. (C4UY7M99L8)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "bb3b23d4-660a-47cb-b895-cda7082b1ca8";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0ACC77EE1D93B23100F3C133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Techies India Inc. (C4UY7M99L8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Techies India Inc. (C4UY7M99L8)";
+				DEVELOPMENT_TEAM = C4UY7M99L8;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techiesindiainc.dussehrastickers.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1a1acfb7-8476-48ea-8e3b-391bc77d2c7d";
+				PROVISIONING_PROFILE_SPECIFIER = DussehraStickersExtension;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0ACC77EF1D93B23100F3C133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Techies India Inc. (C4UY7M99L8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Techies India Inc. (C4UY7M99L8)";
+				DEVELOPMENT_TEAM = C4UY7M99L8;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techiesindiainc.dussehrastickers.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1a1acfb7-8476-48ea-8e3b-391bc77d2c7d";
+				PROVISIONING_PROFILE_SPECIFIER = DussehraStickersExtension;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0ACC77F21D93B23100F3C133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Techies India Inc. (C4UY7M99L8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Techies India Inc. (C4UY7M99L8)";
+				DEVELOPMENT_TEAM = C4UY7M99L8;
+				INFOPLIST_FILE = "Dussehra Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.techiesindiainc.dussehrastickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bb3b23d4-660a-47cb-b895-cda7082b1ca8";
+				PROVISIONING_PROFILE_SPECIFIER = DussehraStickers;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0ACC77F31D93B23100F3C133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Techies India Inc. (C4UY7M99L8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Techies India Inc. (C4UY7M99L8)";
+				DEVELOPMENT_TEAM = C4UY7M99L8;
+				INFOPLIST_FILE = "Dussehra Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.techiesindiainc.dussehrastickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bb3b23d4-660a-47cb-b895-cda7082b1ca8";
+				PROVISIONING_PROFILE_SPECIFIER = DussehraStickers;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ACC77DD1D93B23000F3C133 /* Build configuration list for PBXProject "Dussehra Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACC77EB1D93B23100F3C133 /* Debug */,
+				0ACC77EC1D93B23100F3C133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ACC77ED1D93B23100F3C133 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACC77EE1D93B23100F3C133 /* Debug */,
+				0ACC77EF1D93B23100F3C133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ACC77F11D93B23100F3C133 /* Build configuration list for PBXNativeTarget "Dussehra Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACC77F21D93B23100F3C133 /* Debug */,
+				0ACC77F31D93B23100F3C133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ACC77DA1D93B23000F3C133 /* Project object */;
+}

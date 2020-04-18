@@ -1,0 +1,56 @@
+{
+  "stickers" : [
+    {
+      "filename" : "01.sticker"
+    },
+    {
+      "filename" : "03.sticker"
+    },
+    {
+      "filename" : "04.sticker"
+    },
+    {
+      "filename" : "05.sticker"
+    },
+    {
+      "filename" : "06.sticker"
+    },
+    {
+      "filename" : "07.sticker"
+    },
+    {
+      "filename" : "Burning Rawan.stickersequence"
+    },
+    {
+      "filename" : "N01.sticker"
+    },
+    {
+      "filename" : "N02.sticker"
+    },
+    {
+      "filename" : "N03.sticker"
+    },
+    {
+      "filename" : "N04.sticker"
+    },
+    {
+      "filename" : "N05.sticker"
+    },
+    {
+      "filename" : "R01.sticker"
+    },
+    {
+      "filename" : "R02.sticker"
+    },
+    {
+      "filename" : "R03.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}
